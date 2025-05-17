@@ -1,5 +1,5 @@
 public class LongestCommonSubsequence1 {
-    public static int lcs(String str1, String str2, int n, int m) {
+    public static int lcs(String str1, String str2, int n, int m) { //recursion
         if(n == 0 || m == 0) {
             return 0;
         } 
